@@ -1,0 +1,16 @@
+html, body{ background: rgb(255, 255, 255); }
+p{ margin: 0px; }
+
+#clip{
+  /*
+  Ensure background is added first
+  */  
+   background: url(../assets/images/cityBG.jpeg);
+   background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+  font-size: 28vw;
+  font-weight: bold;
+  text-align: center;
+}
